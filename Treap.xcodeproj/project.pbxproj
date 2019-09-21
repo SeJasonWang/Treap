@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9678899A228FD1B800A85DB0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96788999228FD1B800A85DB0 /* main.c */; };
+		967889A2228FDDBE00A85DB0 /* bst.c in Sources */ = {isa = PBXBuildFile; fileRef = 967889A1228FDDBE00A85DB0 /* bst.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		96788996228FD1B800A85DB0 /* Treap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Treap; sourceTree = BUILT_PRODUCTS_DIR; };
 		96788999228FD1B800A85DB0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		967889A0228FDDBE00A85DB0 /* bst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
+		967889A1228FDDBE00A85DB0 /* bst.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bst.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		96788998228FD1B800A85DB0 /* Treap */ = {
 			isa = PBXGroup;
 			children = (
+				967889A0228FDDBE00A85DB0 /* bst.h */,
+				967889A1228FDDBE00A85DB0 /* bst.c */,
 				96788999228FD1B800A85DB0 /* main.c */,
 			);
 			path = Treap;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9678899A228FD1B800A85DB0 /* main.c in Sources */,
+				967889A2228FDDBE00A85DB0 /* bst.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
